@@ -124,7 +124,6 @@ def findOtherTopic(html,id):
 
 def mainFunction():
     http,uag = getHttpUa()
-
     for ip in http:
         ipQueue.put(ip)
     for ua in uag:
@@ -139,9 +138,6 @@ def mainFunction():
         pWorker.daemon = True
         pWorker.start()
     print('ok2')
-    '''
-        前两次的抽取结果先给gooseeker做，因为没有name，然后后面的再给电脑做
-    '''
     dlList=[]
     #open(expertList_path,newline = '',encoding= 'utf-8') codecs.open(expertList_path,'rb',encoding='utf-8')
     with open(expertList_path,newline = '',encoding= 'utf-8') as csvfile:

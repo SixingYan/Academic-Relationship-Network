@@ -100,7 +100,6 @@ def mainFunction():
 					updateSQL = 'update dlurl1 set status=2 where id='+str(e)
 					cur.execute(updateSQL)
 					conn.commit()	
-		#break#只运行一次
 	#cur.close();conn.close();
 
 if __name__ == '__main__':
