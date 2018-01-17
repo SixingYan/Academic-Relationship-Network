@@ -126,17 +126,7 @@ def measure_topicSIM(topicsNum = 30):
 	corpusLen = 0
 	TOPIC = [[0 for j in range(len(reviewerList)) ] for i in range(len(paperList))]
 	#metrx = [[0 for i in range(corpusLen)] for ]
-	for i in range(len(paperList)):
-		paperList[i]
-		corpus_lda_vector = paperDictT[paperList[i]]
-		sims = index[corpus_lda_vector]
 
-		for j in range(len(reviewerList)):
-			TOPIC[i][j] = sims[j]
-	return 
-
-
-	#print(paperDictT_pickle)
 	constructSeriz(paperDictT_pickle,paperDictT)
 	constructSeriz(reviewerDictT_pickle,reviewerDictT)
 	constructSeriz(corpus_lda_pickle,corpus_lda)

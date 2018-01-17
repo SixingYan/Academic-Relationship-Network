@@ -16,7 +16,6 @@ soup = BeautifulSoup(''.join(doc),"lxml")
 
 #len(soup('p'))
 
-
 #list = soup.find('ul',class="award-winners-list ")
 
 
@@ -55,27 +54,4 @@ def initialSoup(docs):
 	soup = BeautifulSoup(''.join(docs),"lxml")
 	return soup
 
-def getTag(soup,target,label):
-	tag = []
-
-	return []
-
-
-
-
-def getTagCont():
-	return
-
-
-
-if:
-	htmlDocs = 
-	ulSoup = initialSoup(htmlDocs)
-	ulTagCont = getTag(ulSoup,'ul','XXX')
-
-	aTagSet = getTagSet(ulTagCont,'a')
-
-
-	for a in soup.findAll('a'):
-		nameLink.append([a[href],a.string])
 
