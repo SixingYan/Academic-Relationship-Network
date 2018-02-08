@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-用于获得新的合作专家
+用于获得新的合作专家，多线程
 '''
 from queue import Queue
 from threading import Thread

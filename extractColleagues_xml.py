@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 '''
-用于获得新的合作专家
+用于获得新的合作专家，将结果存于xml
 '''
 from queue import Queue
 from threading import Thread
