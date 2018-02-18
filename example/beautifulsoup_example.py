@@ -41,6 +41,7 @@ def readList(path):
         for row in reader:
             List.append(row[0])
         return List
+
 def readHtml(path):
 	#
 	fp = open(path,'r')
