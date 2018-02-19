@@ -8,6 +8,8 @@ import os
 import pickle
 import gc
 
+
+
 signal = '#bun#'
 letter = {'a':0,'b':1,'c':2,'d':3,'e':4,'f':5,'g':6,'h':7,'i':8,'j':9,'k':10,'l':11,'m':12,'n':13,'o':14,'p':15,'q':16,'r':17,'s':18,'t':19,'u':20,'v':21,'w':22,'x':23,'y':24,'z':25,'other':26}
 #commHeaders = {'content-type': 'application/json','User-Agent': 'Opera/9.25 (Windows NT 5.1; U; en)'}
@@ -32,7 +34,7 @@ cookiePairs=[
     [804126486,91182901],
     [887589065,66576478],
     [569750122,89888184],
-    [451513619,23451315]
+    [451513619,23451315],
             ]
 def assignNum(name):
     #
