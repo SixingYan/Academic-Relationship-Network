@@ -12,17 +12,17 @@ doc = ['<html><head><title>Page title</title></head>',
 
 soup = BeautifulSoup(''.join(doc),"lxml")
 
-#print (soup.prettify())
+#print (soup.prettify()) 把要解析的字符串以标准的缩进格式输出
 
 #len(soup('p'))
 
 #list = soup.find('ul',class="award-winners-list ")
-
+soup.p #第一个p节点的内容
 
 soup.find('ul')
 #Out[10]: <ul class="award-winners-list "><a href="http://awards.acm.org/award_winners/alon_6955744.cfm">Noga Alon</a></ul>
 
-soup.find('ul').a.string
+soup.find('ul').a.string #调用string属性就可以得到节点内的文本
 #Out[12]: 'Noga Alon'
 
 soup.find('ul').a
