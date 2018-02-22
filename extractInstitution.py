@@ -4,7 +4,6 @@ from tool import getResult,getCursor,readTXT
 from bs4 import BeautifulSoup
 import os
 files_path = 'E:/Code/Data/dlibrary'
-#files_path = 'E:/Users/Sixing/dl1/test'
 conn,cur = getCursor()
 #import os;os.chdir('e:/Code/Python');import extractInstitution;extractInstitution.mainFunction()
 def cleanInstit(instit):
