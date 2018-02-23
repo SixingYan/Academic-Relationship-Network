@@ -78,13 +78,11 @@ def extractTopicFromCsv2(eid,path):
         print('pass: '+str(eid))
         return topicIDList
     topicList = readMetrix(path)
-    #print(topicList)
     if not len(topicList) >0:
         return topicIDList
     for tpc in topicList:
         if len(tpc)>1:
             topicIDList.append({'eid':eid,'topic':tpc[0],'num':tpc[1]})
-    #print(topicIDList)
     return topicIDList
 
 def addInfo(topicID,flag=1):
